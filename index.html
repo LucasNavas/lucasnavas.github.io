@@ -5,25 +5,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css" type="text/css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
-    <script src="./node_modules/arc/arc.js"></script>
     <title>Comunicação e Redes</title>
   </head>
   <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <div id="checkboxes">
-      <label class="checkbox-inline"><input type="checkbox" class="checkCelio" onclick="celio()">Celio</label>
-      <label class="checkbox-inline"><input type="checkbox" class="checkNavas" onclick="navas(); ">Lucas</label>
-      <label class="checkbox-inline"><input type="checkbox" class="checkMarcella" onclick="marcella(); ">Marcella</label>
-      <label class="checkbox-inline"><input type="checkbox" class="checkRicardo" onclick="ricardo(); ">Ricardo</label>
-      <label class="checkbox-inline"><input type="checkbox" class="checkThiago" onclick="thiago(); ">Thiago</label>
+      <label class="checkbox-inline"><input type="checkbox" class="checkAll" onclick="todos()">Todos</label>
+      <label class="checkbox-inline"><input type="checkbox" class="checkCelio" onclick="celio();">Celio</label>
+      <label class="checkbox-inline"><input type="checkbox" class="checkNavas" onclick="navas();">Lucas</label>
+      <label class="checkbox-inline"><input type="checkbox" class="checkMarcella" onclick="marcella();">Marcella</label>
+      <label class="checkbox-inline"><input type="checkbox" class="checkRicardo" onclick="ricardo();">Ricardo</label>
+      <label class="checkbox-inline"><input type="checkbox" class="checkThiago" onclick="thiago();">Thiago</label>
       <button class="clearAll" onclick="window.location.reload()"><label class="clearAllLabel"></label>Limpar Tudo</label></button>
     </div>
     <div class="buttons">
       <h2>Grafo no mapa</h2>
       <h2><a href="./grafo.html" class="newSite">Veja o Grafo sem o mapa</a></h2>
       <div id="map" class="map"></div>
-      <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
-      <script> var bbox = turf.bbox(features); </script>
       <script type="text/javascript" src="mapPlotter.js"></script>
       <script type="text/javascript" src="graph.js"></script>
     </div>

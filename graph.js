@@ -125,6 +125,28 @@ coords = {
 
 var ids = Object.values(coords)
 
+
+function todos(){
+    if($(".checkAll").is(":checked")){
+        celio()
+        navas()
+        marcella()
+        ricardo()
+        thiago()
+        $('.checkAll').attr('disabled', true);
+        $('.checkMarcella').attr('checked', true);
+        $('.checkMarcella').attr('disabled', true);
+        $('.checkNavas').attr('checked', true);
+        $('.checkNavas').attr('disabled', true);
+        $('.checkRicardo').attr('checked', true);
+        $('.checkRicardo').attr('disabled', true);
+        $('.checkCelio').attr('checked', true);
+        $('.checkCelio').attr('disabled', true);
+        $('.checkThiago').attr('checked', true);
+        $('.checkThiago').attr('disabled', true);
+    }
+}
+
 //Começo Marcella
 function marcella(){
     if($(".checkMarcella").is(":checked")){
