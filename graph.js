@@ -126,626 +126,646 @@ coords = {
 var ids = Object.values(coords)
 
 //Começo Marcella
-viagem(ids[88].long , ids[88].lat , ids[37].long , ids[37].lat , 'black', 2);
-viagem(ids[88].long , ids[88].lat , ids[33].long , ids[33].lat , 'black', 2);
-viagem(ids[88].long , ids[88].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[88].long , ids[88].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[88].long , ids[88].lat , ids[10].long , ids[10].lat , 'black', 2);
+function marcella(){
+    if($(".checkMarcella").is(":checked")){
+        $('.checkMarcella').attr('disabled', true);
+    }
+    viagem(ids[88].long , ids[88].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[88].long , ids[88].lat , ids[33].long , ids[33].lat , 'black', 2);
+    viagem(ids[88].long , ids[88].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[88].long , ids[88].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[88].long , ids[88].lat , ids[10].long , ids[10].lat , 'black', 2);
 
-viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2); // ARRUMAR
-viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
-viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
-viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
-viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2); // ARRUMAR
+    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
 
-viagem(ids[40].long , ids[40].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[40].long , ids[40].lat , ids[37].long , ids[37].lat , 'black', 2);
-viagem(ids[40].long , ids[40].lat , ids[31].long , ids[31].lat , 'black', 2);
-viagem(ids[40].long , ids[40].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[40].long , ids[40].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[40].long , ids[40].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[40].long , ids[40].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[40].long , ids[40].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[40].long , ids[40].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[40].long , ids[40].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[90].long , ids[90].lat , ids[25].long , ids[25].lat , 'black', 2);
-viagem(ids[90].long , ids[90].lat , ids[16].long , ids[16].lat , 'black', 2);
-viagem(ids[90].long , ids[90].lat , ids[14].long , ids[14].lat , 'black', 2);
-viagem(ids[90].long , ids[90].lat , ids[21].long , ids[21].lat , 'black', 2);
-viagem(ids[90].long , ids[90].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[90].long , ids[90].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[90].long , ids[90].lat , ids[16].long , ids[16].lat , 'black', 2);
+    viagem(ids[90].long , ids[90].lat , ids[14].long , ids[14].lat , 'black', 2);
+    viagem(ids[90].long , ids[90].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[90].long , ids[90].lat , ids[29].long , ids[29].lat , 'black', 2);
 
-viagem(ids[5].long , ids[5].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[5].long , ids[5].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[5].long , ids[5].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[5].long , ids[5].lat , ids[46].long , ids[46].lat , 'black', 2);
-viagem(ids[5].long , ids[5].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[5].long , ids[5].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[5].long , ids[5].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[5].long , ids[5].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[5].long , ids[5].lat , ids[46].long , ids[46].lat , 'black', 2);
+    viagem(ids[5].long , ids[5].lat , ids[4].long , ids[4].lat , 'black', 2);
 
-viagem(ids[24].long , ids[24].lat , ids[25].long , ids[25].lat , 'black', 2);
-viagem(ids[24].long , ids[24].lat , ids[2].long , ids[2].lat , 'black', 2);
-viagem(ids[24].long , ids[24].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[24].long , ids[24].lat , ids[14].long , ids[14].lat , 'black', 2);
-viagem(ids[24].long , ids[24].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[24].long , ids[24].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[24].long , ids[24].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[24].long , ids[24].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[24].long , ids[24].lat , ids[14].long , ids[14].lat , 'black', 2);
+    viagem(ids[24].long , ids[24].lat , ids[21].long , ids[21].lat , 'black', 2);
 
-viagem(ids[79].long , ids[79].lat , ids[30].long , ids[30].lat , 'black', 2);
-viagem(ids[79].long , ids[79].lat , ids[43].long , ids[43].lat , 'black', 2);
-viagem(ids[79].long , ids[79].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[79].long , ids[79].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[79].long , ids[79].lat , ids[115].long , ids[115].lat , 'black', 2);
+    viagem(ids[79].long , ids[79].lat , ids[30].long , ids[30].lat , 'black', 2);
+    viagem(ids[79].long , ids[79].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[79].long , ids[79].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[79].long , ids[79].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[79].long , ids[79].lat , ids[115].long , ids[115].lat , 'black', 2);
 
-viagem(ids[32].long , ids[32].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[32].long , ids[32].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[32].long , ids[32].lat , ids[83].long , ids[83].lat , 'black', 2);
-viagem(ids[32].long , ids[32].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[32].long , ids[32].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[32].long , ids[32].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[32].long , ids[32].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[32].long , ids[32].lat , ids[83].long , ids[83].lat , 'black', 2);
+    viagem(ids[32].long , ids[32].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[32].long , ids[32].lat , ids[2].long , ids[2].lat , 'black', 2);
 
-viagem(ids[12].long , ids[12].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[12].long , ids[12].lat , ids[60].long , ids[60].lat , 'black', 2);
-viagem(ids[12].long , ids[12].lat , ids[55].long , ids[55].lat , 'black', 2);
-viagem(ids[12].long , ids[12].lat , ids[5].long , ids[5].lat , 'black', 2);
-viagem(ids[12].long , ids[12].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[12].long , ids[12].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[12].long , ids[12].lat , ids[60].long , ids[60].lat , 'black', 2);
+    viagem(ids[12].long , ids[12].lat , ids[55].long , ids[55].lat , 'black', 2);
+    viagem(ids[12].long , ids[12].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[12].long , ids[12].lat , ids[4].long , ids[4].lat , 'black', 2);
 
-viagem(ids[100].long , ids[100].lat , ids[17].long , ids[17].lat , 'black', 2);
-viagem(ids[100].long , ids[100].lat , ids[24].long , ids[24].lat , 'black', 2);
-viagem(ids[100].long , ids[100].lat , ids[25].long , ids[25].lat , 'black', 2);
-viagem(ids[100].long , ids[100].lat , ids[21].long , ids[21].lat , 'black', 2);
-viagem(ids[100].long , ids[100].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[100].long , ids[100].lat , ids[17].long , ids[17].lat , 'black', 2);
+    viagem(ids[100].long , ids[100].lat , ids[24].long , ids[24].lat , 'black', 2);
+    viagem(ids[100].long , ids[100].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[100].long , ids[100].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[100].long , ids[100].lat , ids[8].long , ids[8].lat , 'black', 2);
 
-viagem(ids[71].long , ids[71].lat , ids[11].long , ids[11].lat , 'black', 2);
-viagem(ids[71].long , ids[71].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[71].long , ids[71].lat , ids[53].long , ids[53].lat , 'black', 2);
-viagem(ids[71].long , ids[71].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[71].long , ids[71].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[71].long , ids[71].lat , ids[11].long , ids[11].lat , 'black', 2);
+    viagem(ids[71].long , ids[71].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[71].long , ids[71].lat , ids[53].long , ids[53].lat , 'black', 2);
+    viagem(ids[71].long , ids[71].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[71].long , ids[71].lat , ids[2].long , ids[2].lat , 'black', 2);
 
-viagem(ids[94].long , ids[94].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[94].long , ids[94].lat , ids[11].long , ids[11].lat , 'black', 2);
-viagem(ids[94].long , ids[94].lat , ids[19].long , ids[19].lat , 'black', 2);
-viagem(ids[94].long , ids[94].lat , ids[42].long , ids[42].lat , 'black', 2);
-viagem(ids[94].long , ids[94].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[94].long , ids[94].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[94].long , ids[94].lat , ids[11].long , ids[11].lat , 'black', 2);
+    viagem(ids[94].long , ids[94].lat , ids[19].long , ids[19].lat , 'black', 2);
+    viagem(ids[94].long , ids[94].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[94].long , ids[94].lat , ids[4].long , ids[4].lat , 'black', 2);
 
-viagem(ids[54].long , ids[54].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[54].long , ids[54].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[54].long , ids[54].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[54].long , ids[54].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[54].long , ids[54].lat , ids[46].long , ids[46].lat , 'black', 2);
+    viagem(ids[54].long , ids[54].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[54].long , ids[54].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[54].long , ids[54].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[54].long , ids[54].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[54].long , ids[54].lat , ids[46].long , ids[46].lat , 'black', 2);
 
-viagem(ids[74].long , ids[74].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[74].long , ids[74].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[74].long , ids[74].lat , ids[31].long , ids[31].lat , 'black', 2);
-viagem(ids[74].long , ids[74].lat , ids[43].long , ids[43].lat , 'black', 2);
-viagem(ids[74].long , ids[74].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[74].long , ids[74].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[74].long , ids[74].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[74].long , ids[74].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[74].long , ids[74].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[74].long , ids[74].lat , ids[7].long , ids[7].lat , 'black', 2);
 
-viagem(ids[27].long , ids[27].lat , ids[42].long , ids[42].lat , 'black', 2);
-viagem(ids[27].long , ids[27].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[27].long , ids[27].lat , ids[116].long , ids[116].lat , 'black', 2);
-viagem(ids[27].long , ids[27].lat , ids[117].long , ids[117].lat , 'black', 2);
-viagem(ids[27].long , ids[27].lat , ids[10].long , ids[10].lat , 'black', 2);
+    viagem(ids[27].long , ids[27].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[27].long , ids[27].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[27].long , ids[27].lat , ids[116].long , ids[116].lat , 'black', 2);
+    viagem(ids[27].long , ids[27].lat , ids[117].long , ids[117].lat , 'black', 2);
+    viagem(ids[27].long , ids[27].lat , ids[10].long , ids[10].lat , 'black', 2);
 
-viagem(ids[44].long , ids[44].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[44].long , ids[44].lat , ids[55].long , ids[55].lat , 'black', 2);
-viagem(ids[44].long , ids[44].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[44].long , ids[44].lat , ids[68].long , ids[68].lat , 'black', 2);
-viagem(ids[44].long , ids[44].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[44].long , ids[44].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[44].long , ids[44].lat , ids[55].long , ids[55].lat , 'black', 2);
+    viagem(ids[44].long , ids[44].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[44].long , ids[44].lat , ids[68].long , ids[68].lat , 'black', 2);
+    viagem(ids[44].long , ids[44].lat , ids[7].long , ids[7].lat , 'black', 2);
 
-viagem(ids[26].long , ids[26].lat , ids[44].long , ids[44].lat , 'black', 2);
-viagem(ids[26].long , ids[26].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[26].long , ids[26].lat , ids[118].long , ids[118].lat , 'black', 2);
-viagem(ids[26].long , ids[26].lat , ids[55].long , ids[55].lat , 'black', 2);
-viagem(ids[26].long , ids[26].lat , ids[60].long , ids[60].lat , 'black', 2);
+    viagem(ids[26].long , ids[26].lat , ids[44].long , ids[44].lat , 'black', 2);
+    viagem(ids[26].long , ids[26].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[26].long , ids[26].lat , ids[118].long , ids[118].lat , 'black', 2);
+    viagem(ids[26].long , ids[26].lat , ids[55].long , ids[55].lat , 'black', 2);
+    viagem(ids[26].long , ids[26].lat , ids[60].long , ids[60].lat , 'black', 2);
 
-viagem(ids[17].long , ids[17].lat , ids[38].long , ids[38].lat , 'black', 2);
-viagem(ids[17].long , ids[17].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[17].long , ids[17].lat , ids[8].long , ids[8].lat , 'black', 2);
-viagem(ids[17].long , ids[17].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[17].long , ids[17].lat , ids[16].long , ids[16].lat , 'black', 2);
+    viagem(ids[17].long , ids[17].lat , ids[38].long , ids[38].lat , 'black', 2);
+    viagem(ids[17].long , ids[17].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[17].long , ids[17].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[17].long , ids[17].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[17].long , ids[17].lat , ids[16].long , ids[16].lat , 'black', 2);
 
-viagem(ids[28].long , ids[28].lat , ids[52].long , ids[52].lat , 'black', 2);
-viagem(ids[28].long , ids[28].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[28].long , ids[28].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[28].long , ids[28].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[28].long , ids[28].lat , ids[47].long , ids[47].lat , 'black', 2);
+    viagem(ids[28].long , ids[28].lat , ids[52].long , ids[52].lat , 'black', 2);
+    viagem(ids[28].long , ids[28].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[28].long , ids[28].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[28].long , ids[28].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[28].long , ids[28].lat , ids[47].long , ids[47].lat , 'black', 2);
 
-viagem(ids[2].long , ids[2].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[2].long , ids[2].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[2].long , ids[2].lat , ids[10].long , ids[10].lat , 'black', 2);
-viagem(ids[2].long , ids[2].lat , ids[5].long , ids[5].lat , 'black', 2);
-viagem(ids[2].long , ids[2].lat , ids[33].long , ids[33].lat , 'black', 2);
-
+    viagem(ids[2].long , ids[2].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[2].long , ids[2].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[2].long , ids[2].lat , ids[10].long , ids[10].lat , 'black', 2);
+    viagem(ids[2].long , ids[2].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[2].long , ids[2].lat , ids[33].long , ids[33].lat , 'black', 2);
+}
 //Fim Marcella
 
 //Começo Navas
+function navas(){
+    if($(".checkNavas").is(":checked")){
+        $('.checkNavas').attr('disabled', true);
+    }
 
-viagem(ids[84].long , ids[84].lat , ids[42].long , ids[42].lat , 'black', 2);
-viagem(ids[84].long , ids[84].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[84].long , ids[84].lat , ids[75].long , ids[75].lat , 'black', 2);
-viagem(ids[84].long , ids[84].lat , ids[101].long , ids[101].lat , 'black', 2);
-viagem(ids[84].long , ids[84].lat , ids[19].long , ids[19].lat , 'black', 2);
 
-viagem(ids[61].long , ids[61].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[61].long , ids[61].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[61].long , ids[61].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[61].long , ids[61].lat , ids[52].long , ids[52].lat , 'black', 2);
-viagem(ids[61].long , ids[61].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[84].long , ids[84].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[84].long , ids[84].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[84].long , ids[84].lat , ids[75].long , ids[75].lat , 'black', 2);
+    viagem(ids[84].long , ids[84].lat , ids[101].long , ids[101].lat , 'black', 2);
+    viagem(ids[84].long , ids[84].lat , ids[19].long , ids[19].lat , 'black', 2);
 
-viagem(ids[47].long , ids[47].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[47].long , ids[47].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[47].long , ids[47].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[47].long , ids[47].lat , ids[43].long , ids[43].lat , 'black', 2);
-viagem(ids[47].long , ids[47].lat , ids[102].long , ids[102].lat , 'black', 2);
+    viagem(ids[61].long , ids[61].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[61].long , ids[61].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[61].long , ids[61].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[61].long , ids[61].lat , ids[52].long , ids[52].lat , 'black', 2);
+    viagem(ids[61].long , ids[61].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[49].long , ids[49].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[49].long , ids[49].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[49].long , ids[49].lat , ids[37].long , ids[37].lat , 'black', 2);
-viagem(ids[49].long , ids[49].lat , ids[40].long , ids[40].lat , 'black', 2);
-viagem(ids[49].long , ids[49].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[47].long , ids[47].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[47].long , ids[47].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[47].long , ids[47].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[47].long , ids[47].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[47].long , ids[47].lat , ids[102].long , ids[102].lat , 'black', 2);
 
-viagem(ids[14].long , ids[14].lat , ids[2].long , ids[2].lat , 'black', 2);
-viagem(ids[14].long , ids[14].lat , ids[21].long , ids[21].lat , 'black', 2);
-viagem(ids[14].long , ids[14].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[14].long , ids[14].lat , ids[6].long , ids[6].lat , 'black', 2);
-viagem(ids[14].long , ids[14].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[49].long , ids[49].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[49].long , ids[49].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[49].long , ids[49].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[49].long , ids[49].lat , ids[40].long , ids[40].lat , 'black', 2);
+    viagem(ids[49].long , ids[49].lat , ids[7].long , ids[7].lat , 'black', 2);
 
-viagem(ids[7].long , ids[7].lat , ids[53].long , ids[53].lat , 'black', 2);
-viagem(ids[7].long , ids[7].lat , ids[103].long , ids[103].lat , 'black', 2);
-viagem(ids[7].long , ids[7].lat , ids[52].long , ids[52].lat , 'black', 2);
-viagem(ids[7].long , ids[7].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[7].long , ids[7].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[14].long , ids[14].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[14].long , ids[14].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[14].long , ids[14].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[14].long , ids[14].lat , ids[6].long , ids[6].lat , 'black', 2);
+    viagem(ids[14].long , ids[14].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[70].long , ids[70].lat , ids[2].long , ids[2].lat , 'black', 2);
-viagem(ids[70].long , ids[70].lat , ids[104].long , ids[104].lat , 'black', 2);
-viagem(ids[70].long , ids[70].lat , ids[25].long , ids[25].lat , 'black', 2);
-viagem(ids[70].long , ids[70].lat , ids[21].long , ids[21].lat , 'black', 2);
-viagem(ids[70].long , ids[70].lat , ids[6].long , ids[6].lat , 'black', 2);
+    viagem(ids[7].long , ids[7].lat , ids[53].long , ids[53].lat , 'black', 2);
+    viagem(ids[7].long , ids[7].lat , ids[103].long , ids[103].lat , 'black', 2);
+    viagem(ids[7].long , ids[7].lat , ids[52].long , ids[52].lat , 'black', 2);
+    viagem(ids[7].long , ids[7].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[7].long , ids[7].lat , ids[12].long , ids[12].lat , 'black', 2);
 
-viagem(ids[59].long , ids[59].lat , ids[95].long , ids[95].lat , 'black', 2);
-viagem(ids[59].long , ids[59].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[59].long , ids[59].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[59].long , ids[59].lat , ids[5].long , ids[5].lat , 'black', 2);
-viagem(ids[59].long , ids[59].lat , ids[55].long , ids[55].lat , 'black', 2);
+    viagem(ids[70].long , ids[70].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[70].long , ids[70].lat , ids[104].long , ids[104].lat , 'black', 2);
+    viagem(ids[70].long , ids[70].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[70].long , ids[70].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[70].long , ids[70].lat , ids[6].long , ids[6].lat , 'black', 2);
 
-viagem(ids[76].long , ids[76].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[76].long , ids[76].lat , ids[105].long , ids[105].lat , 'black', 2);
-viagem(ids[76].long , ids[76].lat , ids[106].long , ids[106].lat , 'black', 2);
-viagem(ids[76].long , ids[76].lat , ids[80].long , ids[80].lat , 'black', 2);
-viagem(ids[76].long , ids[76].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[59].long , ids[59].lat , ids[95].long , ids[95].lat , 'black', 2);
+    viagem(ids[59].long , ids[59].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[59].long , ids[59].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[59].long , ids[59].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[59].long , ids[59].lat , ids[55].long , ids[55].lat , 'black', 2);
 
-viagem(ids[31].long , ids[31].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[31].long , ids[31].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[31].long , ids[31].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[31].long , ids[31].lat , ids[40].long , ids[40].lat , 'black', 2);
-viagem(ids[31].long , ids[31].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[76].long , ids[76].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[76].long , ids[76].lat , ids[105].long , ids[105].lat , 'black', 2);
+    viagem(ids[76].long , ids[76].lat , ids[106].long , ids[106].lat , 'black', 2);
+    viagem(ids[76].long , ids[76].lat , ids[80].long , ids[80].lat , 'black', 2);
+    viagem(ids[76].long , ids[76].lat , ids[42].long , ids[42].lat , 'black', 2);
 
-viagem(ids[30].long , ids[30].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[30].long , ids[30].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[30].long , ids[30].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[30].long , ids[30].lat , ids[43].long , ids[43].lat , 'black', 2);
-viagem(ids[30].long , ids[30].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[31].long , ids[31].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[31].long , ids[31].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[31].long , ids[31].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[31].long , ids[31].lat , ids[40].long , ids[40].lat , 'black', 2);
+    viagem(ids[31].long , ids[31].lat , ids[4].long , ids[4].lat , 'black', 2);
 
-viagem(ids[52].long , ids[52].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[52].long , ids[52].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[52].long , ids[52].lat , ids[28].long , ids[28].lat , 'black', 2);
-viagem(ids[52].long , ids[52].lat , ids[39].long , ids[39].lat , 'black', 2);
-viagem(ids[52].long , ids[52].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[30].long , ids[30].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[30].long , ids[30].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[30].long , ids[30].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[30].long , ids[30].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[30].long , ids[30].lat , ids[18].long , ids[18].lat , 'black', 2);
 
-viagem(ids[53].long , ids[53].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[53].long , ids[53].lat , ids[11].long , ids[11].lat , 'black', 2);
-viagem(ids[53].long , ids[53].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[53].long , ids[53].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[53].long , ids[53].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[52].long , ids[52].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[52].long , ids[52].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[52].long , ids[52].lat , ids[28].long , ids[28].lat , 'black', 2);
+    viagem(ids[52].long , ids[52].lat , ids[39].long , ids[39].lat , 'black', 2);
+    viagem(ids[52].long , ids[52].lat , ids[43].long , ids[43].lat , 'black', 2);
 
-viagem(ids[98].long , ids[98].lat , ids[107].long , ids[107].lat , 'black', 2);
-viagem(ids[98].long , ids[98].lat , ids[58].long , ids[58].lat , 'black', 2);
-viagem(ids[98].long , ids[98].lat , ids[108].long , ids[108].lat , 'black', 2);
-viagem(ids[98].long , ids[98].lat , ids[89].long , ids[89].lat , 'black', 2);
-viagem(ids[98].long , ids[98].lat , ids[45].long , ids[45].lat , 'black', 2);
+    viagem(ids[53].long , ids[53].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[53].long , ids[53].lat , ids[11].long , ids[11].lat , 'black', 2);
+    viagem(ids[53].long , ids[53].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[53].long , ids[53].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[53].long , ids[53].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[23].long , ids[23].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[23].long , ids[23].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[23].long , ids[23].lat , ids[3].long , ids[3].lat , 'black', 2);
-viagem(ids[23].long , ids[23].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[23].long , ids[23].lat , ids[102].long , ids[102].lat , 'black', 2);
+    viagem(ids[98].long , ids[98].lat , ids[107].long , ids[107].lat , 'black', 2);
+    viagem(ids[98].long , ids[98].lat , ids[58].long , ids[58].lat , 'black', 2);
+    viagem(ids[98].long , ids[98].lat , ids[108].long , ids[108].lat , 'black', 2);
+    viagem(ids[98].long , ids[98].lat , ids[89].long , ids[89].lat , 'black', 2);
+    viagem(ids[98].long , ids[98].lat , ids[45].long , ids[45].lat , 'black', 2);
 
-viagem(ids[4].long , ids[4].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[4].long , ids[4].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[4].long , ids[4].lat , ids[3].long , ids[3].lat , 'black', 2);
-viagem(ids[4].long , ids[4].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[4].long , ids[4].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[23].long , ids[23].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[23].long , ids[23].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[23].long , ids[23].lat , ids[3].long , ids[3].lat , 'black', 2);
+    viagem(ids[23].long , ids[23].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[23].long , ids[23].lat , ids[102].long , ids[102].lat , 'black', 2);
 
-viagem(ids[9].long , ids[9].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[9].long , ids[9].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[9].long , ids[9].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[9].long , ids[9].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[9].long , ids[9].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[4].long , ids[4].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[4].long , ids[4].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[4].long , ids[4].lat , ids[3].long , ids[3].lat , 'black', 2);
+    viagem(ids[4].long , ids[4].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[4].long , ids[4].lat , ids[37].long , ids[37].lat , 'black', 2);
 
-viagem(ids[80].long , ids[80].lat , ids[42].long , ids[42].lat , 'black', 2);
-viagem(ids[80].long , ids[80].lat , ids[109].long , ids[109].lat , 'black', 2);
-viagem(ids[80].long , ids[80].lat , ids[27].long , ids[27].lat , 'black', 2);
-viagem(ids[80].long , ids[80].lat , ids[19].long , ids[19].lat , 'black', 2);
-viagem(ids[80].long , ids[80].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[9].long , ids[9].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[9].long , ids[9].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[9].long , ids[9].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[9].long , ids[9].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[9].long , ids[9].lat , ids[43].long , ids[43].lat , 'black', 2);
 
-viagem(ids[57].long , ids[57].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[57].long , ids[57].lat , ids[5].long , ids[5].lat , 'black', 2);
-viagem(ids[57].long , ids[57].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[57].long , ids[57].lat , ids[20].long , ids[20].lat , 'black', 2);
-viagem(ids[57].long , ids[57].lat , ids[69].long , ids[69].lat , 'black', 2);
+    viagem(ids[80].long , ids[80].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[80].long , ids[80].lat , ids[109].long , ids[109].lat , 'black', 2);
+    viagem(ids[80].long , ids[80].lat , ids[27].long , ids[27].lat , 'black', 2);
+    viagem(ids[80].long , ids[80].lat , ids[19].long , ids[19].lat , 'black', 2);
+    viagem(ids[80].long , ids[80].lat , ids[7].long , ids[7].lat , 'black', 2);
 
-viagem(ids[62].long , ids[62].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[62].long , ids[62].lat , ids[27].long , ids[27].lat , 'black', 2);
-viagem(ids[62].long , ids[62].lat , ids[42].long , ids[42].lat , 'black', 2);
-viagem(ids[62].long , ids[62].lat , ids[62].long , ids[62].lat , 'black', 2);
-viagem(ids[62].long , ids[62].lat , ids[36].long , ids[36].lat , 'black', 2);
+    viagem(ids[57].long , ids[57].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[57].long , ids[57].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[57].long , ids[57].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[57].long , ids[57].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[57].long , ids[57].lat , ids[69].long , ids[69].lat , 'black', 2);
 
+    viagem(ids[62].long , ids[62].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[62].long , ids[62].lat , ids[27].long , ids[27].lat , 'black', 2);
+    viagem(ids[62].long , ids[62].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[62].long , ids[62].lat , ids[62].long , ids[62].lat , 'black', 2);
+    viagem(ids[62].long , ids[62].lat , ids[36].long , ids[36].lat , 'black', 2);
+}
 //Fim Navas
 
 //Começo Ricardo
+function ricardo(){
+    if($(".checkRicardo").is(":checked")){
+        $('.checkRicardo').attr('disabled', true);
+    }
 
-viagem(ids[35].long , ids[35].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[35].long , ids[35].lat , ids[34].long , ids[34].lat , 'black', 2);
-viagem(ids[35].long , ids[35].lat , ids[27].long , ids[27].lat , 'black', 2);
-viagem(ids[35].long , ids[35].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[35].long , ids[35].lat , ids[10].long , ids[10].lat , 'black', 2);
+    viagem(ids[35].long , ids[35].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[35].long , ids[35].lat , ids[34].long , ids[34].lat , 'black', 2);
+    viagem(ids[35].long , ids[35].lat , ids[27].long , ids[27].lat , 'black', 2);
+    viagem(ids[35].long , ids[35].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[35].long , ids[35].lat , ids[10].long , ids[10].lat , 'black', 2);
 
-viagem(ids[45].long , ids[45].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[45].long , ids[45].lat , ids[58].long , ids[58].lat , 'black', 2);
-viagem(ids[45].long , ids[45].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[45].long , ids[45].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[45].long , ids[45].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[45].long , ids[45].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[45].long , ids[45].lat , ids[58].long , ids[58].lat , 'black', 2);
+    viagem(ids[45].long , ids[45].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[45].long , ids[45].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[45].long , ids[45].lat , ids[21].long , ids[21].lat , 'black', 2);
 
-viagem(ids[83].long , ids[83].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[83].long , ids[83].lat , ids[68].long , ids[68].lat , 'black', 2);
-viagem(ids[83].long , ids[83].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[83].long , ids[83].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[83].long , ids[83].lat , ids[72].long , ids[72].lat , 'black', 2);
+    viagem(ids[83].long , ids[83].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[83].long , ids[83].lat , ids[68].long , ids[68].lat , 'black', 2);
+    viagem(ids[83].long , ids[83].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[83].long , ids[83].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[83].long , ids[83].lat , ids[72].long , ids[72].lat , 'black', 2);
 
-viagem(ids[37].long , ids[37].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[37].long , ids[37].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[37].long , ids[37].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[37].long , ids[37].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[37].long , ids[37].lat , ids[30].long , ids[30].lat , 'black', 2);
+    viagem(ids[37].long , ids[37].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[37].long , ids[37].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[37].long , ids[37].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[37].long , ids[37].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[37].long , ids[37].lat , ids[30].long , ids[30].lat , 'black', 2);
 
-viagem(ids[19].long , ids[19].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[19].long , ids[19].lat , ids[15].long , ids[15].lat , 'black', 2);
-viagem(ids[19].long , ids[19].lat , ids[27].long , ids[27].lat , 'black', 2);
-viagem(ids[19].long , ids[19].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[19].long , ids[19].lat , ids[10].long , ids[10].lat , 'black', 2);
+    viagem(ids[19].long , ids[19].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[19].long , ids[19].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[19].long , ids[19].lat , ids[27].long , ids[27].lat , 'black', 2);
+    viagem(ids[19].long , ids[19].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[19].long , ids[19].lat , ids[10].long , ids[10].lat , 'black', 2);
 
-viagem(ids[13].long , ids[13].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[13].long , ids[13].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[13].long , ids[13].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[13].long , ids[13].lat , ids[37].long , ids[37].lat , 'black', 2);
-viagem(ids[13].long , ids[13].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[13].long , ids[13].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[13].long , ids[13].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[13].long , ids[13].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[13].long , ids[13].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[13].long , ids[13].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[96].long , ids[96].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[96].long , ids[96].lat , ids[11].long , ids[11].lat , 'black', 2);
-viagem(ids[96].long , ids[96].lat , ids[63].long , ids[63].lat , 'black', 2);
-viagem(ids[96].long , ids[96].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[96].long , ids[96].lat , ids[3].long , ids[3].lat , 'black', 2);
+    viagem(ids[96].long , ids[96].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[96].long , ids[96].lat , ids[11].long , ids[11].lat , 'black', 2);
+    viagem(ids[96].long , ids[96].lat , ids[63].long , ids[63].lat , 'black', 2);
+    viagem(ids[96].long , ids[96].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[96].long , ids[96].lat , ids[3].long , ids[3].lat , 'black', 2);
 
-viagem(ids[64].long , ids[64].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[64].long , ids[64].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[64].long , ids[64].lat , ids[110].long , ids[110].lat , 'black', 2);
-viagem(ids[64].long , ids[64].lat , ids[49].long , ids[49].lat , 'black', 2);
-viagem(ids[64].long , ids[64].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[64].long , ids[64].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[64].long , ids[64].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[64].long , ids[64].lat , ids[110].long , ids[110].lat , 'black', 2);
+    viagem(ids[64].long , ids[64].lat , ids[49].long , ids[49].lat , 'black', 2);
+    viagem(ids[64].long , ids[64].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[41].long , ids[41].lat , ids[111].long , ids[111].lat , 'black', 2);
-viagem(ids[41].long , ids[41].lat , ids[102].long , ids[102].lat , 'black', 2);
-viagem(ids[41].long , ids[41].lat , ids[112].long , ids[112].lat , 'black', 2);
-viagem(ids[41].long , ids[41].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[41].long , ids[41].lat , ids[113].long , ids[113].lat , 'black', 2);
+    viagem(ids[41].long , ids[41].lat , ids[111].long , ids[111].lat , 'black', 2);
+    viagem(ids[41].long , ids[41].lat , ids[102].long , ids[102].lat , 'black', 2);
+    viagem(ids[41].long , ids[41].lat , ids[112].long , ids[112].lat , 'black', 2);
+    viagem(ids[41].long , ids[41].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[41].long , ids[41].lat , ids[113].long , ids[113].lat , 'black', 2);
 
-viagem(ids[25].long , ids[25].lat , ids[16].long , ids[16].lat , 'black', 2);
-viagem(ids[25].long , ids[25].lat , ids[21].long , ids[21].lat , 'black', 2);
-viagem(ids[25].long , ids[25].lat , ids[20].long , ids[20].lat , 'black', 2);
-viagem(ids[25].long , ids[25].lat , ids[8].long , ids[8].lat , 'black', 2);
-viagem(ids[25].long , ids[25].lat , ids[24].long , ids[24].lat , 'black', 2);
+    viagem(ids[25].long , ids[25].lat , ids[16].long , ids[16].lat , 'black', 2);
+    viagem(ids[25].long , ids[25].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[25].long , ids[25].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[25].long , ids[25].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[25].long , ids[25].lat , ids[24].long , ids[24].lat , 'black', 2);
 
-viagem(ids[29].long , ids[29].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[29].long , ids[29].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[29].long , ids[29].lat , ids[55].long , ids[55].lat , 'black', 2);
-viagem(ids[29].long , ids[29].lat , ids[57].long , ids[57].lat , 'black', 2);
-viagem(ids[29].long , ids[29].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[29].long , ids[29].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[29].long , ids[29].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[29].long , ids[29].lat , ids[55].long , ids[55].lat , 'black', 2);
+    viagem(ids[29].long , ids[29].lat , ids[57].long , ids[57].lat , 'black', 2);
+    viagem(ids[29].long , ids[29].lat , ids[5].long , ids[5].lat , 'black', 2);
 
-viagem(ids[78].long , ids[78].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[78].long , ids[78].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[78].long , ids[78].lat , ids[114].long , ids[114].lat , 'black', 2);
-viagem(ids[78].long , ids[78].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[78].long , ids[78].lat , ids[50].long , ids[50].lat , 'black', 2);
+    viagem(ids[78].long , ids[78].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[78].long , ids[78].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[78].long , ids[78].lat , ids[114].long , ids[114].lat , 'black', 2);
+    viagem(ids[78].long , ids[78].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[78].long , ids[78].lat , ids[50].long , ids[50].lat , 'black', 2);
 
-viagem(ids[86].long , ids[86].lat , ids[54].long , ids[54].lat , 'black', 2);
-viagem(ids[86].long , ids[86].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[86].long , ids[86].lat , ids[5].long , ids[5].lat , 'black', 2);
-viagem(ids[86].long , ids[86].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[86].long , ids[86].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[86].long , ids[86].lat , ids[54].long , ids[54].lat , 'black', 2);
+    viagem(ids[86].long , ids[86].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[86].long , ids[86].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[86].long , ids[86].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[86].long , ids[86].lat , ids[26].long , ids[26].lat , 'black', 2);
 
-viagem(ids[3].long , ids[3].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[3].long , ids[3].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[3].long , ids[3].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[3].long , ids[3].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[3].long , ids[3].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[3].long , ids[3].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[3].long , ids[3].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[3].long , ids[3].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[3].long , ids[3].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[3].long , ids[3].lat , ids[15].long , ids[15].lat , 'black', 2);
 
-viagem(ids[95].long , ids[95].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[95].long , ids[95].lat , ids[59].long , ids[59].lat , 'black', 2);
-viagem(ids[95].long , ids[95].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[95].long , ids[95].lat , ids[5].long , ids[5].lat , 'black', 2);
-viagem(ids[95].long , ids[95].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[95].long , ids[95].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[95].long , ids[95].lat , ids[59].long , ids[59].lat , 'black', 2);
+    viagem(ids[95].long , ids[95].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[95].long , ids[95].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[95].long , ids[95].lat , ids[20].long , ids[20].lat , 'black', 2);
 
-viagem(ids[97].long , ids[97].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[97].long , ids[97].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[97].long , ids[97].lat , ids[79].long , ids[79].lat , 'black', 2);
-viagem(ids[97].long , ids[97].lat , ids[47].long , ids[47].lat , 'black', 2);
-viagem(ids[97].long , ids[97].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[97].long , ids[97].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[97].long , ids[97].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[97].long , ids[97].lat , ids[79].long , ids[79].lat , 'black', 2);
+    viagem(ids[97].long , ids[97].lat , ids[47].long , ids[47].lat , 'black', 2);
+    viagem(ids[97].long , ids[97].lat , ids[23].long , ids[23].lat , 'black', 2);
 
-viagem(ids[10].long , ids[10].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[10].long , ids[10].lat , ids[35].long , ids[35].lat , 'black', 2);
-viagem(ids[10].long , ids[10].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[10].long , ids[10].lat , ids[37].long , ids[37].lat , 'black', 2);
-viagem(ids[10].long , ids[10].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[10].long , ids[10].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[10].long , ids[10].lat , ids[35].long , ids[35].lat , 'black', 2);
+    viagem(ids[10].long , ids[10].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[10].long , ids[10].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[10].long , ids[10].lat , ids[15].long , ids[15].lat , 'black', 2);
 
-viagem(ids[73].long , ids[73].lat , ids[11].long , ids[11].lat , 'black', 2);
-viagem(ids[73].long , ids[73].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[73].long , ids[73].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[73].long , ids[73].lat , ids[114].long , ids[114].lat , 'black', 2);
-viagem(ids[73].long , ids[73].lat , ids[53].long , ids[53].lat , 'black', 2);
+    viagem(ids[73].long , ids[73].lat , ids[11].long , ids[11].lat , 'black', 2);
+    viagem(ids[73].long , ids[73].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[73].long , ids[73].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[73].long , ids[73].lat , ids[114].long , ids[114].lat , 'black', 2);
+    viagem(ids[73].long , ids[73].lat , ids[53].long , ids[53].lat , 'black', 2);
 
-viagem(ids[43].long , ids[43].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[43].long , ids[43].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[43].long , ids[43].lat , ids[40].long , ids[40].lat , 'black', 2);
-viagem(ids[43].long , ids[43].lat , ids[39].long , ids[39].lat , 'black', 2);
-viagem(ids[43].long , ids[43].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[43].long , ids[43].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[43].long , ids[43].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[43].long , ids[43].lat , ids[40].long , ids[40].lat , 'black', 2);
+    viagem(ids[43].long , ids[43].lat , ids[39].long , ids[39].lat , 'black', 2);
+    viagem(ids[43].long , ids[43].lat , ids[31].long , ids[31].lat , 'black', 2);
 
-viagem(ids[93].long , ids[93].lat , ids[25].long , ids[25].lat , 'black', 2);
-viagem(ids[93].long , ids[93].lat , ids[17].long , ids[17].lat , 'black', 2);
-viagem(ids[93].long , ids[93].lat , ids[20].long , ids[20].lat , 'black', 2);
-viagem(ids[93].long , ids[93].lat , ids[21].long , ids[21].lat , 'black', 2);
-viagem(ids[93].long , ids[93].lat , ids[4].long , ids[4].lat , 'black', 2);
-
+    viagem(ids[93].long , ids[93].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[93].long , ids[93].lat , ids[17].long , ids[17].lat , 'black', 2);
+    viagem(ids[93].long , ids[93].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[93].long , ids[93].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[93].long , ids[93].lat , ids[4].long , ids[4].lat , 'black', 2);
+}
 //Fim Ricardo
 
 //Começo Celio
+function celio(){
+    if($(".checkCelio").is(":checked")){
+        $('.checkCelio').attr('disabled', true);
+    }
 
-viagem(ids[68].long , ids[68].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[68].long , ids[68].lat , ids[44].long , ids[44].lat , 'black', 2);
-viagem(ids[68].long , ids[68].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[68].long , ids[68].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[68].long , ids[68].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[68].long , ids[68].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[68].long , ids[68].lat , ids[44].long , ids[44].lat , 'black', 2);
+    viagem(ids[68].long , ids[68].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[68].long , ids[68].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[68].long , ids[68].lat , ids[29].long , ids[29].lat , 'black', 2);
 
-viagem(ids[99].long , ids[99].lat , ids[43].long , ids[43].lat , 'black', 2);
-viagem(ids[99].long , ids[99].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[99].long , ids[99].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[99].long , ids[99].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[99].long , ids[99].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[99].long , ids[99].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[99].long , ids[99].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[99].long , ids[99].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[99].long , ids[99].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[99].long , ids[99].lat , ids[31].long , ids[31].lat , 'black', 2);
 
-viagem(ids[85].long , ids[85].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[85].long , ids[85].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[85].long , ids[85].lat , ids[33].long , ids[33].lat , 'black', 2);
-viagem(ids[85].long , ids[85].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[85].long , ids[85].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[85].long , ids[85].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[85].long , ids[85].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[85].long , ids[85].lat , ids[33].long , ids[33].lat , 'black', 2);
+    viagem(ids[85].long , ids[85].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[85].long , ids[85].lat , ids[4].long , ids[4].lat , 'black', 2);
 
-viagem(ids[36].long , ids[36].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[36].long , ids[36].lat , ids[34].long , ids[34].lat , 'black', 2);
-viagem(ids[36].long , ids[36].lat , ids[42].long , ids[42].lat , 'black', 2);
-viagem(ids[36].long , ids[36].lat , ids[35].long , ids[35].lat , 'black', 2);
-viagem(ids[36].long , ids[36].lat , ids[27].long , ids[27].lat , 'black', 2);
+    viagem(ids[36].long , ids[36].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[36].long , ids[36].lat , ids[34].long , ids[34].lat , 'black', 2);
+    viagem(ids[36].long , ids[36].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[36].long , ids[36].lat , ids[35].long , ids[35].lat , 'black', 2);
+    viagem(ids[36].long , ids[36].lat , ids[27].long , ids[27].lat , 'black', 2);
 
-viagem(ids[89].long , ids[89].lat , ids[58].long , ids[58].lat , 'black', 2);
-viagem(ids[89].long , ids[89].lat , ids[45].long , ids[45].lat , 'black', 2);
-viagem(ids[89].long , ids[89].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[89].long , ids[89].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[89].long , ids[89].lat , ids[48].long , ids[48].lat , 'black', 2);
+    viagem(ids[89].long , ids[89].lat , ids[58].long , ids[58].lat , 'black', 2);
+    viagem(ids[89].long , ids[89].lat , ids[45].long , ids[45].lat , 'black', 2);
+    viagem(ids[89].long , ids[89].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[89].long , ids[89].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[89].long , ids[89].lat , ids[48].long , ids[48].lat , 'black', 2);
 
-viagem(ids[34].long , ids[34].lat , ids[36].long , ids[36].lat , 'black', 2);
-viagem(ids[34].long , ids[34].lat , ids[27].long , ids[27].lat , 'black', 2);
-viagem(ids[34].long , ids[34].lat , ids[65].long , ids[65].lat , 'black', 2);
-viagem(ids[34].long , ids[34].lat , ids[10].long , ids[10].lat , 'black', 2);
-viagem(ids[34].long , ids[34].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[34].long , ids[34].lat , ids[36].long , ids[36].lat , 'black', 2);
+    viagem(ids[34].long , ids[34].lat , ids[27].long , ids[27].lat , 'black', 2);
+    viagem(ids[34].long , ids[34].lat , ids[65].long , ids[65].lat , 'black', 2);
+    viagem(ids[34].long , ids[34].lat , ids[10].long , ids[10].lat , 'black', 2);
+    viagem(ids[34].long , ids[34].lat , ids[1].long , ids[1].lat , 'black', 2);
 
-viagem(ids[50].long , ids[50].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[50].long , ids[50].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[50].long , ids[50].lat , ids[52].long , ids[52].lat , 'black', 2);
-viagem(ids[50].long , ids[50].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[50].long , ids[50].lat , ids[44].long , ids[44].lat , 'black', 2);
+    viagem(ids[50].long , ids[50].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[50].long , ids[50].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[50].long , ids[50].lat , ids[52].long , ids[52].lat , 'black', 2);
+    viagem(ids[50].long , ids[50].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[50].long , ids[50].lat , ids[44].long , ids[44].lat , 'black', 2);
 
-viagem(ids[69].long , ids[69].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[69].long , ids[69].lat , ids[5].long , ids[5].lat , 'black', 2);
-viagem(ids[69].long , ids[69].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[69].long , ids[69].lat , ids[2].long , ids[2].lat , 'black', 2);
-viagem(ids[69].long , ids[69].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[69].long , ids[69].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[69].long , ids[69].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[69].long , ids[69].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[69].long , ids[69].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[69].long , ids[69].lat , ids[29].long , ids[29].lat , 'black', 2);
 
-viagem(ids[11].long , ids[11].lat , ids[50].long , ids[50].lat , 'black', 2);
-viagem(ids[11].long , ids[11].lat , ids[44].long , ids[44].lat , 'black', 2);
-viagem(ids[11].long , ids[11].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[11].long , ids[11].lat , ids[71].long , ids[71].lat , 'black', 2);
-viagem(ids[11].long , ids[11].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[11].long , ids[11].lat , ids[50].long , ids[50].lat , 'black', 2);
+    viagem(ids[11].long , ids[11].lat , ids[44].long , ids[44].lat , 'black', 2);
+    viagem(ids[11].long , ids[11].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[11].long , ids[11].lat , ids[71].long , ids[71].lat , 'black', 2);
+    viagem(ids[11].long , ids[11].lat , ids[21].long , ids[21].lat , 'black', 2);
 
-viagem(ids[39].long , ids[39].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[39].long , ids[39].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[39].long , ids[39].lat , ids[11].long , ids[11].lat , 'black', 2);
-viagem(ids[39].long , ids[39].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[39].long , ids[39].lat , ids[30].long , ids[30].lat , 'black', 2);
+    viagem(ids[39].long , ids[39].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[39].long , ids[39].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[39].long , ids[39].lat , ids[11].long , ids[11].lat , 'black', 2);
+    viagem(ids[39].long , ids[39].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[39].long , ids[39].lat , ids[30].long , ids[30].lat , 'black', 2);
 
-viagem(ids[48].long , ids[48].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[48].long , ids[48].lat , ids[45].long , ids[45].lat , 'black', 2);
-viagem(ids[48].long , ids[48].lat , ids[49].long , ids[49].lat , 'black', 2);
-viagem(ids[48].long , ids[48].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[48].long , ids[48].lat , ids[64].long , ids[64].lat , 'black', 2);
+    viagem(ids[48].long , ids[48].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[48].long , ids[48].lat , ids[45].long , ids[45].lat , 'black', 2);
+    viagem(ids[48].long , ids[48].lat , ids[49].long , ids[49].lat , 'black', 2);
+    viagem(ids[48].long , ids[48].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[48].long , ids[48].lat , ids[64].long , ids[64].lat , 'black', 2);
 
-viagem(ids[77].long , ids[77].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[77].long , ids[77].lat , ids[2].long , ids[2].lat , 'black', 2);
-viagem(ids[77].long , ids[77].lat , ids[7].long , ids[7].lat , 'black', 2);
-viagem(ids[77].long , ids[77].lat , ids[53].long , ids[53].lat , 'black', 2);
-viagem(ids[77].long , ids[77].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[77].long , ids[77].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[77].long , ids[77].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[77].long , ids[77].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[77].long , ids[77].lat , ids[53].long , ids[53].lat , 'black', 2);
+    viagem(ids[77].long , ids[77].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[15].long , ids[15].lat , ids[37].long , ids[37].lat , 'black', 2);
-viagem(ids[15].long , ids[15].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[15].long , ids[15].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[15].long , ids[15].lat , ids[31].long , ids[31].lat , 'black', 2);
-viagem(ids[15].long , ids[15].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[15].long , ids[15].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[15].long , ids[15].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[15].long , ids[15].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[15].long , ids[15].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[15].long , ids[15].lat , ids[23].long , ids[23].lat , 'black', 2);
 
-viagem(ids[18].long , ids[18].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[18].long , ids[18].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[18].long , ids[18].lat , ids[31].long , ids[31].lat , 'black', 2);
-viagem(ids[18].long , ids[18].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[18].long , ids[18].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[18].long , ids[18].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[18].long , ids[18].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[18].long , ids[18].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[18].long , ids[18].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[18].long , ids[18].lat , ids[15].long , ids[15].lat , 'black', 2);
 
-viagem(ids[65].long , ids[65].lat , ids[42].long , ids[42].lat , 'black', 2);
-viagem(ids[65].long , ids[65].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[65].long , ids[65].lat , ids[35].long , ids[35].lat , 'black', 2);
-viagem(ids[65].long , ids[65].lat , ids[10].long , ids[10].lat , 'black', 2);
-viagem(ids[65].long , ids[65].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[65].long , ids[65].lat , ids[42].long , ids[42].lat , 'black', 2);
+    viagem(ids[65].long , ids[65].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[65].long , ids[65].lat , ids[35].long , ids[35].lat , 'black', 2);
+    viagem(ids[65].long , ids[65].lat , ids[10].long , ids[10].lat , 'black', 2);
+    viagem(ids[65].long , ids[65].lat , ids[15].long , ids[15].lat , 'black', 2);
 
-viagem(ids[51].long , ids[51].lat , ids[102].long , ids[102].lat , 'black', 2);
-viagem(ids[51].long , ids[51].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[51].long , ids[51].lat , ids[1].long , ids[1].lat , 'black', 2);
-viagem(ids[51].long , ids[51].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[51].long , ids[51].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[51].long , ids[51].lat , ids[102].long , ids[102].lat , 'black', 2);
+    viagem(ids[51].long , ids[51].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[51].long , ids[51].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[51].long , ids[51].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[51].long , ids[51].lat , ids[23].long , ids[23].lat , 'black', 2);
 
-viagem(ids[46].long , ids[46].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[46].long , ids[46].lat , ids[57].long , ids[57].lat , 'black', 2);
-viagem(ids[46].long , ids[46].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[46].long , ids[46].lat , ids[29].long , ids[29].lat , 'black', 2);
-viagem(ids[46].long , ids[46].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[46].long , ids[46].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[46].long , ids[46].lat , ids[57].long , ids[57].lat , 'black', 2);
+    viagem(ids[46].long , ids[46].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[46].long , ids[46].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[46].long , ids[46].lat , ids[5].long , ids[5].lat , 'black', 2);
 
-viagem(ids[63].long , ids[63].lat , ids[18].long , ids[18].lat , 'black', 2);
-viagem(ids[63].long , ids[63].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[63].long , ids[63].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[63].long , ids[63].lat , ids[43].long , ids[43].lat , 'black', 2);
-viagem(ids[63].long , ids[63].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[63].long , ids[63].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[63].long , ids[63].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[63].long , ids[63].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[63].long , ids[63].lat , ids[43].long , ids[43].lat , 'black', 2);
+    viagem(ids[63].long , ids[63].lat , ids[4].long , ids[4].lat , 'black', 2);
 
-viagem(ids[60].long , ids[60].lat , ids[12].long , ids[12].lat , 'black', 2);
-viagem(ids[60].long , ids[60].lat , ids[26].long , ids[26].lat , 'black', 2);
-viagem(ids[60].long , ids[60].lat , ids[44].long , ids[44].lat , 'black', 2);
-viagem(ids[60].long , ids[60].lat , ids[4].long , ids[4].lat , 'black', 2);
-viagem(ids[60].long , ids[60].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[60].long , ids[60].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[60].long , ids[60].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[60].long , ids[60].lat , ids[44].long , ids[44].lat , 'black', 2);
+    viagem(ids[60].long , ids[60].lat , ids[4].long , ids[4].lat , 'black', 2);
+    viagem(ids[60].long , ids[60].lat , ids[7].long , ids[7].lat , 'black', 2);
 
-viagem(ids[81].long , ids[81].lat , ids[9].long , ids[9].lat , 'black', 2);
-viagem(ids[81].long , ids[81].lat , ids[37].long , ids[37].lat , 'black', 2);
-viagem(ids[81].long , ids[81].lat , ids[31].long , ids[31].lat , 'black', 2);
-viagem(ids[81].long , ids[81].lat , ids[23].long , ids[23].lat , 'black', 2);
-viagem(ids[81].long , ids[81].lat , ids[4].long , ids[4].lat , 'black', 2);
-
+    viagem(ids[81].long , ids[81].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[81].long , ids[81].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[81].long , ids[81].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[81].long , ids[81].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[81].long , ids[81].lat , ids[4].long , ids[4].lat , 'black', 2);
+}
 //Fim Celio
 
-//Começo Berns
-/*
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+//Começo Thiago
+function thiago(){
+    if($(".checkThiago").is(":checked")){
+        $('.checkThiago').attr('disabled', true);
+    }
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[21].long , ids[21].lat , ids[16].long , ids[16].lat , 'black', 2);
+    viagem(ids[21].long , ids[21].lat , ids[6].long , ids[6].lat , 'black', 2);
+    viagem(ids[21].long , ids[21].lat , ids[24].long , ids[24].lat , 'black', 2);
+    viagem(ids[21].long , ids[21].lat , ids[22].long , ids[22].lat , 'black', 2);
+    viagem(ids[21].long , ids[21].lat , ids[2].long , ids[2].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[16].long , ids[16].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[16].long , ids[16].lat , ids[6].long , ids[6].lat , 'black', 2);
+    viagem(ids[16].long , ids[16].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[16].long , ids[16].lat , ids[59].long , ids[59].lat , 'black', 2);
+    viagem(ids[16].long , ids[16].lat , ids[2].long , ids[2].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[82].long , ids[82].lat , ids[9].long , ids[9].lat , 'black', 2);
+    viagem(ids[82].long , ids[82].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[82].long , ids[82].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[82].long , ids[82].lat , ids[7].long , ids[7].lat , 'black', 2);
+    viagem(ids[82].long , ids[82].lat , ids[43].long , ids[43].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[87].long , ids[87].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[87].long , ids[87].lat , ids[17].long , ids[17].lat , 'black', 2);
+    viagem(ids[87].long , ids[87].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[87].long , ids[87].lat , ids[38].long , ids[38].lat , 'black', 2);
+    viagem(ids[87].long , ids[87].lat , ids[25].long , ids[25].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[20].long , ids[20].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[20].long , ids[20].lat , ids[16].long , ids[16].lat , 'black', 2);
+    viagem(ids[20].long , ids[20].lat , ids[59].long , ids[59].lat , 'black', 2);
+    viagem(ids[20].long , ids[20].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[20].long , ids[20].lat , ids[24].long , ids[24].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[92].long , ids[92].lat , ids[14].long , ids[14].lat , 'black', 2);
+    viagem(ids[92].long , ids[92].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[92].long , ids[92].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[92].long , ids[92].lat , ids[22].long , ids[22].lat , 'black', 2);
+    viagem(ids[92].long , ids[92].lat , ids[16].long , ids[16].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[91].long , ids[91].lat , ids[101].long , ids[101].lat , 'black', 2);
+    viagem(ids[91].long , ids[91].lat , ids[19].long , ids[19].lat , 'black', 2);
+    viagem(ids[91].long , ids[91].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[91].long , ids[91].lat , ids[75].long , ids[75].lat , 'black', 2);
+    viagem(ids[91].long , ids[91].lat , ids[42].long , ids[42].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[33].long , ids[33].lat , ids[88].long , ids[88].lat , 'black', 2);
+    viagem(ids[33].long , ids[33].lat , ids[45].long , ids[45].lat , 'black', 2);
+    viagem(ids[33].long , ids[33].lat , ids[98].long , ids[98].lat , 'black', 2);
+    viagem(ids[33].long , ids[33].lat , ids[107].long , ids[107].lat , 'black', 2);
+    viagem(ids[33].long , ids[33].lat , ids[20].long , ids[20].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[55].long , ids[55].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[55].long , ids[55].lat , ids[60].long , ids[60].lat , 'black', 2);
+    viagem(ids[55].long , ids[55].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[55].long , ids[55].lat , ids[44].long , ids[44].lat , 'black', 2);
+    viagem(ids[55].long , ids[55].lat , ids[7].long , ids[7].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[22].long , ids[22].lat , ids[16].long , ids[16].lat , 'black', 2);
+    viagem(ids[22].long , ids[22].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[22].long , ids[22].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[22].long , ids[22].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[22].long , ids[22].lat , ids[6].long , ids[6].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[75].long , ids[75].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[75].long , ids[75].lat , ids[101].long , ids[101].lat , 'black', 2);
+    viagem(ids[75].long , ids[75].lat , ids[19].long , ids[19].lat , 'black', 2);
+    viagem(ids[75].long , ids[75].lat , ids[84].long , ids[84].lat , 'black', 2);
+    viagem(ids[75].long , ids[75].lat , ids[27].long , ids[27].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[42].long , ids[42].lat , ids[19].long , ids[19].lat , 'black', 2);
+    viagem(ids[42].long , ids[42].lat , ids[1].long , ids[1].lat , 'black', 2);
+    viagem(ids[42].long , ids[42].lat , ids[109].long , ids[109].lat , 'black', 2);
+    viagem(ids[42].long , ids[42].lat , ids[36].long , ids[36].lat , 'black', 2);
+    viagem(ids[42].long , ids[42].lat , ids[62].long , ids[62].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[67].long , ids[67].lat , ids[2].long , ids[2].lat , 'black', 2);
+    viagem(ids[67].long , ids[67].lat , ids[57].long , ids[57].lat , 'black', 2);
+    viagem(ids[67].long , ids[67].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[67].long , ids[67].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[67].long , ids[67].lat , ids[16].long , ids[16].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[38].long , ids[38].lat , ids[17].long , ids[17].lat , 'black', 2);
+    viagem(ids[38].long , ids[38].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[38].long , ids[38].lat , ids[14].long , ids[14].lat , 'black', 2);
+    viagem(ids[38].long , ids[38].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[38].long , ids[38].lat , ids[2].long , ids[2].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[1].long , ids[1].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[1].long , ids[1].lat , ids[18].long , ids[18].lat , 'black', 2);
+    viagem(ids[1].long , ids[1].lat , ids[48].long , ids[48].lat , 'black', 2);
+    viagem(ids[1].long , ids[1].lat , ids[27].long , ids[27].lat , 'black', 2);
+    viagem(ids[1].long , ids[1].lat , ids[34].long , ids[34].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[58].long , ids[58].lat , ids[33].long , ids[33].lat , 'black', 2);
+    viagem(ids[58].long , ids[58].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[58].long , ids[58].lat , ids[45].long , ids[45].lat , 'black', 2);
+    viagem(ids[58].long , ids[58].lat , ids[5].long , ids[5].lat , 'black', 2);
+    viagem(ids[58].long , ids[58].lat , ids[23].long , ids[23].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[6].long , ids[6].lat , ids[20].long , ids[20].lat , 'black', 2);
+    viagem(ids[6].long , ids[6].lat , ids[24].long , ids[24].lat , 'black', 2);
+    viagem(ids[6].long , ids[6].lat , ids[16].long , ids[16].lat , 'black', 2);
+    viagem(ids[6].long , ids[6].lat , ids[21].long , ids[21].lat , 'black', 2);
+    viagem(ids[6].long , ids[6].lat , ids[104].long , ids[104].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
+    viagem(ids[66].long , ids[66].lat , ids[23].long , ids[23].lat , 'black', 2);
+    viagem(ids[66].long , ids[66].lat , ids[41].long , ids[41].lat , 'black', 2);
+    viagem(ids[66].long , ids[66].lat , ids[113].long , ids[113].lat , 'black', 2);
+    viagem(ids[66].long , ids[66].lat , ids[112].long , ids[112].lat , 'black', 2);
+    viagem(ids[66].long , ids[66].lat , ids[9].long , ids[9].lat , 'black', 2);
 
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-*/
-//Fim Berns
+    viagem(ids[72].long , ids[72].lat , ids[83].long , ids[83].lat , 'black', 2);
+    viagem(ids[72].long , ids[72].lat , ids[44].long , ids[44].lat , 'black', 2);
+    viagem(ids[72].long , ids[72].lat , ids[29].long , ids[29].lat , 'black', 2);
+    viagem(ids[72].long , ids[72].lat , ids[12].long , ids[12].lat , 'black', 2);
+    viagem(ids[72].long , ids[72].lat , ids[7].long , ids[7].lat , 'black', 2);
 
+    viagem(ids[56].long , ids[56].lat , ids[31].long , ids[31].lat , 'black', 2);
+    viagem(ids[56].long , ids[56].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[56].long , ids[56].lat , ids[37].long , ids[37].lat , 'black', 2);
+    viagem(ids[56].long , ids[56].lat , ids[64].long , ids[64].lat , 'black', 2);
+    viagem(ids[56].long , ids[56].lat , ids[18].long , ids[18].lat , 'black', 2);
+}
+//Fim Thiago
 
 
 
 // viagem(ids[ ].long , ids[ ].lat , ids[ ].long , ids[ ].lat , 'black', 2);
-// window.location.reload()
+// 

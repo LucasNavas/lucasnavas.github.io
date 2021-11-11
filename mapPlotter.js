@@ -2,15 +2,18 @@ const map = new ol.Map({
   target: 'map',
   layers: [
     new ol.layer.Tile({
-      source: new ol.source.OSM() //https://mc.bbbike.org/mc/
+      source: new ol.source.Stamen({
+        layer: 'terrain'
+      }) //https://mc.bbbike.org/mc/
     }) // https://wiki.openstreetmap.org/wiki/Map_internationalization
   ],
   view: new ol.View({
-    center: ol.proj.fromLonLat([-55.1, -15.82]), // Primeiro o W e depois o S 
-    zoom: 4.5
+    center: ol.proj.fromLonLat([20.8368, 15.8282]), // Primeiro o W e depois o S 
+    zoom: 3
   })
   
 });
+
 
 function viagem(partida1,partida2,chegada1,chegada2,cor, howMuchArrows){
 var partida = ol.proj.fromLonLat([partida1, partida2]);
@@ -43,7 +46,7 @@ var lineStyle = [
   new ol.style.Style({
     stroke: new ol.style.Stroke({
     color: cor,
-    width: 1.5
+    width: 1
     })
   }),
 
