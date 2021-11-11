@@ -150,21 +150,21 @@ function todos(){
 //Começo Marcella
 function marcella(){
     if($(".checkMarcella").is(":checked")){
-        $('.checkMarcella').attr('disabled', true);
+        $('.checkMarcella').attr('disabled', true); // America Latina, America do Norte, Europa, Ásia, África, Oceania
     }
-    viagem(ids[88].long , ids[88].lat , ids[37].long , ids[37].lat , 'black', 2);
-    viagem(ids[88].long , ids[88].lat , ids[33].long , ids[33].lat , 'black', 2);
-    viagem(ids[88].long , ids[88].lat , ids[12].long , ids[12].lat , 'black', 2);
-    viagem(ids[88].long , ids[88].lat , ids[18].long , ids[18].lat , 'black', 2);
-    viagem(ids[88].long , ids[88].lat , ids[10].long , ids[10].lat , 'black', 2);
+    viagem(ids[88].long , ids[88].lat , ids[37].long , ids[37].lat , 'red', 2);
+    viagem(ids[88].long , ids[88].lat , ids[33].long , ids[33].lat , 'green', 2);
+    viagem(ids[88].long , ids[88].lat , ids[12].long , ids[12].lat , 'blue', 2);
+    viagem(ids[88].long , ids[88].lat , ids[18].long , ids[18].lat , '#fdc700', 2);
+    viagem(ids[88].long , ids[88].lat , ids[10].long , ids[10].lat , '#f100ff', 2);
 
-    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2); // ARRUMAR
-    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
-    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
-    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
-    viagem(ids[8].long , ids[8].lat , ids[8].long , ids[8].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[16].long , ids[16].lat , 'black', 2); // ARRUMAR
+    viagem(ids[8].long , ids[8].lat , ids[26].long , ids[26].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[100].long , ids[100].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[25].long , ids[25].lat , 'black', 2);
+    viagem(ids[8].long , ids[8].lat , ids[17].long , ids[17].lat , 'black', 2);
 
-    viagem(ids[40].long , ids[40].lat , ids[15].long , ids[15].lat , 'black', 2);
+    viagem(ids[40].long , ids[40].lat , ids[15].long , ids[15].lat , 'brown', 2);
     viagem(ids[40].long , ids[40].lat , ids[37].long , ids[37].lat , 'black', 2);
     viagem(ids[40].long , ids[40].lat , ids[31].long , ids[31].lat , 'black', 2);
     viagem(ids[40].long , ids[40].lat , ids[18].long , ids[18].lat , 'black', 2);
