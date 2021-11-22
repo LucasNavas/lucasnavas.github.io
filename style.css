@@ -93,6 +93,7 @@ body{
   .card{
     position:relative;
     width:408px;
+    height: 440px;
     padding-bottom:50px;
     background-color:#fff2cc;
     box-shadow: 0 21px 35px rgb(0 0 0/ .10);
@@ -108,14 +109,15 @@ body{
   }
 
   .card p{
-    font-size:20px;
+    font-size:18px;
     line-height:30px;
     text-align: justify;
     text-justify: inter-word;
+    text-align-last: center;
   }
 
   .card h2{
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
 
