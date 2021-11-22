@@ -46,6 +46,14 @@ body{
     border-radius:5px;
   }
 
+  @media (max-width: 1530px) {
+
+    .index .newSite {
+          float:right;
+     }
+
+}
+
   .checkbox-inline,.newSite,.clearAll{
     font-family: Arial, Helvetica, sans-serif;
   }
